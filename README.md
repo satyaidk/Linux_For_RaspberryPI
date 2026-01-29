@@ -15,3 +15,10 @@ tar -zxvf Python-3.10.8.tgz
 cd Python-3.10.8
 
 ```
+Configure and Build:
+Run the configuration script and compile the code. Note: This process can take over an hour on a Raspberry Pi 4.
+```
+./configure --enable-optimizations
+make -j$(nproc)
+
+```
