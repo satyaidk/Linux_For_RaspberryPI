@@ -28,3 +28,9 @@ Use altinstall to avoid breaking the default system Python.
 sudo make altinstall
 
 ```
+Verify the Installation:
+Check that Python 3.10 is installed correctly.
+```
+python3.10 --version
+
+```
