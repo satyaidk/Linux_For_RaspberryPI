@@ -22,3 +22,9 @@ Run the configuration script and compile the code. Note: This process can take o
 make -j$(nproc)
 
 ```
+Install Python 3.10:
+Use altinstall to avoid breaking the default system Python.
+```
+sudo make altinstall
+
+```
